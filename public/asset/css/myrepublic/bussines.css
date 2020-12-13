@@ -1,0 +1,179 @@
+.topbar-bisnis {
+    width: 100%;
+    margin: auto;
+    background-color: rgb(0, 102, 255);
+}
+
+.topbar-bisnis-wrap {
+    margin: auto;
+    width: 50%;
+    padding: 28px 40px 201px 40px;
+}
+
+.topbar-bisnis-wrap h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.topbar-bisnis-wrap {
+    margin: auto;
+    width: 100%;
+    padding: 70px 40px 60px 40px;
+}
+
+.topbar-bisnis-wrap h1 img {
+    width: 100%;
+}
+
+.img-bisnis {
+    position: relative;
+    z-index: 1;
+    top: -191px;
+}
+
+.img-bisnis-wrap {
+    width: 85%;
+    margin: auto;
+}
+
+.img-bisnis-wrap img {
+    width: 100%;
+    border-radius: 13px;
+    object-fit: cover;
+    background-position: top;
+}
+
+.img-bisnis {
+    top: -56px;
+}
+
+/* =======content bussines========== */
+.conten-bisnis-wrap h1 {
+    color: rgb(0, 102, 255);
+    font-size: 50px;
+    margin-top: -25px;
+    font-weight: bold;
+}
+
+.wrap-teas-wrap h1 {
+    color: rgb(0, 102, 255);
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.wrap-teas-wrap>p {
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width:900px) {
+    .conten-bisnis-wrap h1 {
+        color: rgb(0, 102, 255);
+        font-size: 25px;
+        margin-bottom: 20px;
+        font-weight: bold;
+
+    }
+
+    .wrap-teas-wrap h1 {
+        color: rgb(0, 102, 255);
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .wrap-teas-wrap>p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+}
+
+/* ======table====== */
+.tabel-one-set {
+    text-align: center;
+    color: #000000;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 37px;
+    box-shadow: 10px 10px 49px -23px rgba(0, 0, 0, .7);
+}
+
+
+.col1 {
+    text-transform: initial;
+    font-weight: 700;
+    padding-bottom: 20px;
+    font-size: 1.5em;
+    background-color: #dedede;
+    color: rgb(0, 102, 255);
+    line-height: 60px;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    font-weight: 800;
+    border-radius: 8px 8px 1px 1px;
+}
+
+.col1 span {
+    font-size: 2.8em;
+}
+
+.col2 {
+    background-color: #dedede;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+.col2-box h1 {
+    font-size: 29px;
+    font-weight: 800;
+    margin: 0px;
+}
+
+.col2-box span {
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.btn-fixed {
+    background: rgb(0, 102, 255);
+    line-height: 53px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 1px 1px 37px 37px;
+    transition: all 0.5s;
+}
+
+.btn-fixed:hover {
+    background: rgb(0, 102, 255);
+    color: #000000;
+    transition: all 0.5s;
+}
+
+a.scroll_button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    line-height: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* syarat ketentuan----
+--------------------------- */
+.sk.container {
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
